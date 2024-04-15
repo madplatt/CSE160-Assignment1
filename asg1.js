@@ -126,8 +126,7 @@ function renderAllShapes() {
 } 
 
 function click(ev) {
-    if (ev.buttons != 1)
-    {
+    if (ev.buttons != 1) {
         return;
     }
     console.log(g_selectedType);
